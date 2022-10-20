@@ -28,3 +28,6 @@ document.getElementById('btn-name-remove').addEventListener('click', function ()
 document.getElementById('btn-age-remove').addEventListener('click', function () {
     localStorage.removeItem('age')
 })
+document.getElementById('all-clear').addEventListener('click', function () {
+    localStorage.clear();
+})
