@@ -13,6 +13,7 @@ document.getElementById('btn-age-add').addEventListener('click', function () {
     console.log(inputAgeValue);
     localStorage.setItem('age',inputAgeValue)
 })
+// 
 
 
 
